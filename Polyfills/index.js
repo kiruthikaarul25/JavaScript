@@ -2,7 +2,7 @@ let movies=["KGF","Bahubali","RRR"];
 let a=movies.map((item,index)=>{return item})
 console.log(a);
 
-Array.prototype.myMap=function(callback){  //mymap we create own method
+Array.prototype.myMap=function(callback){ 
     let result=[]
     for(let i=0;i<this.length;i++){
         result.push(callback(this[i],i))
