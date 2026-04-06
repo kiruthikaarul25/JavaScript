@@ -1,13 +1,13 @@
 let a=" Hello World ";
 
-let b=a.length; // counting letter with space also
+let b=a.length; 
 console.log(b);
 
-let c =a.charAt(0) // read first letter 0 is a first index
+let c =a.charAt(0) 
 console.log(c);
 
 let d=a.charCodeAt(0)
-console.log(d); //Computer characters ah number aa store pannum.(ASCII value)
+console.log(d); 
 
 let e=a.toUpperCase();
 console.log(e);
@@ -16,48 +16,48 @@ let f=a.toLowerCase();
 console.log(f);
 
 let g=a.startsWith("H");
-console.log(g); //check the letter start crt or not if crt print true otherwise false
+console.log(g);
 
-let h=a.endsWith("d"); //check end letter
+let h=a.endsWith("d"); 
 console.log(h);
 
 let i =a.includes("w");
-console.log(i); //check in between the word
+console.log(i); 
 
 let j=a.indexOf("r");
-console.log(j); // print that letter index value
+console.log(j); 
 
 let k=a.trimStart("");
-console.log(k); //trim space in starting
+console.log(k);
 
-let l=a.trimEnd(""); //trim end
+let l=a.trimEnd(""); 
 console.log(l); 
 
 
 let m=a.trim("");
-console.log(m);  //both start and end
+console.log(m); 
 
 let n=a.concat("Everyone");
-console.log(n); //add word
+console.log(n); 
 
 let o=a.repeat(2);
-console.log(o); //repeat word
+console.log(o);
 
 let p=a.replace("Hello","Bye");
-console.log(p); //replace bye instead of hello
+console.log(p);
 
 let q=a.slice(3,9);
-console.log(q);//remove start index 3 letter and after 9 index
+console.log(q);
 
 let r=a.split();
-console.log(r); // convert string into array 
+console.log(r);  
 
 let s=a.split("");
-console.log(s); //split letters space also
+console.log(s); 
 
 let t=a.split(" ");
-console.log(t); //split word
+console.log(t); 
 
-let u=prompt("Enter Your Name");  //promt to use get user input
+let u=prompt("Enter Your Name");  
 let v=u.charAt(0).toUpperCase().concat(u.slice(1));
 console.log(v);
