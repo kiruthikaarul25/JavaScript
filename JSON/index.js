@@ -4,6 +4,5 @@ let emp={
     ePlace:"Tamilnadu"
 }
 console.log(emp);
-console.log(JSON.stringify(emp)); //(Stringyfy) Everything into strings formate
-console.log(JSON.parse(JSON.stringify(emp))); // (parse) String into normal formate
-
+console.log(JSON.stringify(emp)); 
+console.log(JSON.parse(JSON.stringify(emp))); 
