@@ -18,10 +18,10 @@ d=20;
 console.log(d);
 
 //Re-Declaration and Re-Initialization at the same time
-// let e="Egg";
-// let e="Hen";        //we can't write same varaiable name in let
-// console.log(e);
+let e="Egg";
+let e="Hen";       
+console.log(e);
 
 //Hoisting
 console.log(f);      
-let f="Fish";     // we can't access before write print satement
+let f="Fish";     
