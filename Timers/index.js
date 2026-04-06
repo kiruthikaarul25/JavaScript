@@ -7,6 +7,6 @@ setTimeout(()=>{
 console.log("c");
 
 
-setInterval(()=>{ //infinity print 
+setInterval(()=>{ 
     document.writeln("Thank you 😊")
 },2000)
