@@ -1,37 +1,37 @@
 let emp = {
-    eName: "Nivi",
+    eName: "Keerthi",
     ePlace: "Tamilnadu",
     eId: 31,
-    ePassword: "nivi@31"
+    ePassword: "keerthi@31"
 }
 
-Object.seal(emp) // it not allowed to add...but edit
-Object.freeze(emp) // it not allowed new value and edit
+Object.seal(emp) 
+Object.freeze(emp) 
 
 emp.ePin = 9056
 emp.eName = "Darlaa"
 
-console.log(Object.keys(emp)); //only print key
-console.log(Object.values(emp)); //only print values
-console.log(Object.entries(emp)); //object convert into array
-console.log(Object.isFrozen(emp)); //check freeze or not
-console.log(Object.isSealed(emp)); //check seal or not
+console.log(Object.keys(emp)); 
+console.log(Object.values(emp)); 
+console.log(Object.entries(emp)); 
+console.log(Object.isFrozen(emp)); 
+console.log(Object.isSealed(emp)); 
 
-let sharingData = Object.fromEntries(Object.entries(emp).filter(([key]) => key !== "ePassword")) //fromentries convert array into object
+let sharingData = Object.fromEntries(Object.entries(emp).filter(([key]) => key !== "ePassword")) 
 console.log(sharingData)
 
-// const person={
-//     name:'Nivi'
-// }
-// function greet(age,msg){
-//     console.log(`My name is ${this.name} and my age is ${age},s${msg}`);  
-// }
-// greet.call(person,28,'Welcome');
-// greet.apply(person,[28,'Welcome']); //use array brackes[] using apply
+const person={
+    name:'Nivi'
+}
+function greet(age,msg){
+    console.log(`My name is ${this.name} and my age is ${age},s${msg}`);  
+}
+greet.call(person,28,'Welcome');
+greet.apply(person,[28,'Welcome']); //use array brackes[] using apply
 
 
 const person = {
-    name: 'Nivi',
+    name: 'Keerthi',
     greet: function (age, msg) {
         console.log(`My name is ${this.name} and my age is ${age},
             ${msg}`);
