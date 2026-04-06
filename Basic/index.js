@@ -1,6 +1,4 @@
-//js is not case senitive so semi colon(;) is not mandatory
-
-var a="NIVI"
+var a="Keerthi"
 console.log(a);
-document.writeln("Hello can u see me")  // ln is use for 1 tab of space to the next sentences
+document.writeln("Hello can u see me")
 document.write("Yeah i can see you") 
