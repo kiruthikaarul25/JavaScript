@@ -1,7 +1,7 @@
 function cam(){
     let video=document.querySelector('video')
     let cond={video:true,audio:true}
-    window.navigator.mediaDevices.getUserMedia(cond) //getUserMedia to use video and audio
+    window.navigator.mediaDevices.getUserMedia(cond) 
     .then((res)=>video.srcObject=res)
     .catch((err)=>console.log(err));
 }
@@ -9,7 +9,7 @@ function cam(){
 function ss(){
     let video=document.querySelector('video')
     let cond={video:true,audio:true}
-    window.navigator.mediaDevices.getDisplayMedia(cond) //getDisplayMedia to use share the screen
+    window.navigator.mediaDevices.getDisplayMedia(cond) 
     .then((res)=>video.srcObject=res)
     .catch((err)=>console.log(err));
 }
