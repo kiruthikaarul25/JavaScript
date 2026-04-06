@@ -1,6 +1,6 @@
 //Declaration
 var a;
-console.log(a);     //there is no defined value so undefinend
+console.log(a);    
 
 //Initialization
 var b;
@@ -11,7 +11,7 @@ console.log(b);
 var c=10;
 console.log(c);
 
-//Re-Initialization  //re-intialization means update the value
+//Re-Initialization 
 var d;
 d=10;
 d=20;
