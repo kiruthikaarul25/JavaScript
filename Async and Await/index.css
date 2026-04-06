@@ -1,11 +1,10 @@
-/* page styling */
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
     margin: 20px;
 }
 
-/* main container */
 #container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -15,7 +14,7 @@ body{
     border-radius: 10px;
 }
 
-/* product card */
+
 .card{
     border: 2px solid #ccc;
     border-radius: 10px;
@@ -25,20 +24,17 @@ body{
     box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
 }
 
-/* product image */
 .card img{
     width: 120px;
     height: 120px;
     object-fit: contain;
 }
 
-/* product title */
 .card p{
     font-size: 14px;
     margin: 8px 0;
 }
 
-/* button styling */
 .card button{
     padding: 8px 15px;
     border: none;
