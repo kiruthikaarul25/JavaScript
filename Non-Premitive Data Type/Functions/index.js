@@ -1,8 +1,8 @@
 //Ananomous
-// function(){
-//     console.log("I am Ananomous")
-// }
-// ()
+function(){
+    console.log("I am Ananomous")
+}
+()
 
 //Named Function
 function apple(){
@@ -25,7 +25,7 @@ ball();
 )
 
 //Arrow Function
-const arrow=()=>{           // ()=> instead of function
+const arrow=()=>{          
     console.log("I am arrow function")
 }
 arrow()
@@ -36,20 +36,20 @@ function sum(a){
 }
 console.log(sum(10));
 
-// function sum(a){
-//     return function sum(b){
-//         return a+b
-//     }
-// }
-// console.log(sum(10)(20))
+function sum(a){
+    return function sum(b){
+        return a+b
+    }
+}
+console.log(sum(10)(20))
 
-// function sum(a){
-//     return function (b){
-//         return function(c){
-//             return function(d){
-//                 return a+b+c+d
-//             }
-//         }
-//     }
-// }
-// console.log(sum(10)(10)(10)(10));
+function sum(a){
+    return function (b){
+        return function(c){
+            return function(d){
+                return a+b+c+d
+            }
+        }
+    }
+}
+console.log(sum(10)(10)(10)(10));
