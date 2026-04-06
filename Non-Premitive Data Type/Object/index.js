@@ -8,15 +8,13 @@ emp.eState="Tamilnadu"
 
 console.log(emp)
 console.log(emp, typeof emp)
-console.table(emp) // it created table formate
+console.table(emp) 
 
 //new Keyword
 let stu=new Object()
 stu.sName="Nivi",
 stu.sID="31"
 console.log(stu)
-
-//let new array
 
 //constructor Function
 function movies(name,genre){
